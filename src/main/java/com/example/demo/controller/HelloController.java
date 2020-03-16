@@ -11,7 +11,7 @@ public class HelloController {
 	
 	@RequestMapping("/")
 	public String home() {
-		System.out.println("======111====");
+		System.out.println("======111222====");
 		return "Hi, spring boot";   //http://localhost:8080/hello/
 	}
 	
